@@ -1,0 +1,3 @@
+fileName = input("enter a name: ")
+f_extn = fileName.split('.')
+print("The name of the extension is : " + repr(f_extn[-1]))
