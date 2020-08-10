@@ -1,0 +1,5 @@
+group = input("enter few numbers seperated by comma: ")
+list = group.split(',')#The split() method splits a string into a list, we can specify the seperator.
+tuple = tuple(list)
+print('List: ', list)
+print('Tuple: ', tuple)
